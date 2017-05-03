@@ -27,4 +27,4 @@ script:
 
 
 after_script:
-    - php ocular.phar code-coverage:upload --format=php-clover coverage.clover
+    - php ocular.phar code-coverage:upload --access-token="29b75d071491d67a6275358b794a5ea1196100f4be409f4077903e97b7f07a55" --format=php-clover coverage.clover
